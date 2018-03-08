@@ -75,7 +75,7 @@ export type Options<TValue = OptionValues> = Array<Option<TValue>>;
 
 export interface Option<TValue = OptionValues> {
     /** Text for rendering */
-    label?: string | number | React.ReactElement<any> | (string|number|React.ReactElement<any>)[];
+    label?: string | number | React.ReactElement<any>;
     /** Value for searching */
     value?: TValue;
     /**
